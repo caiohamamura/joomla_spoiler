@@ -1,0 +1,7 @@
+Ver 1.4:
++ NEW FEATURE: Add a 'show less/close' header to the top (default 'do nothing' behaviour), bottom or both top and bottom of the spoiler, for each spoiler individually, through parameters.
+Ver 1.3:
++ BUG FIX: Plugin no longer fails on large articles.
+Ver 1.2:
++ BUG FIX: sequential IDs for spoilers caused occasional non-unique spoiler IDs, which lead to spoilers non-functioning properly. Sequential IDs are replaced with unique IDs.
++ NEW FEATURE: Spoilers with the content available for the registered users only. To hide the content from the non-registered users, add a third parameter to the plugin, setting it to "true" (no qotes): {spoiler}spoilerID,Click me to open,Click me to close,true{/spoiler}

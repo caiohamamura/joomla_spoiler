@@ -1,0 +1,41 @@
+/**
+ * @package Content Plugin ContentSpoiler for Joomla! 3.4
+ * @version $Id: version 1.1
+ * @file: contentspoiler.css
+ * @author Dmitry Borets
+ * @copyright (C) 2016 - Dmitry Borets
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+**/
+
+.contentspoiler div.spi {
+	padding: 8px;
+	max-height: 0px;
+	overflow: hidden;
+	margin-bottom: 0px;
+	padding: 0px;
+	transition: ease 0.4s max-height;
+}
+.contentspoiler div.spl p {
+	display: inline;
+	cursor: pointer;
+}
+.contentspoiler div.spl p.hide_label{
+	display: none;
+	visibility: hidden;	
+}
+.contentspoiler div.spl p.show_label{
+	display: inline;
+	visibility: visible;	
+}
+.contentspoiler div.spl p.hide_label_img{
+	padding-left: 24px;
+	display: none;
+	visibility: hidden;
+	background: transparent url(/plugins/content/contentspoiler/images/up.gif) no-repeat left center;
+}
+.contentspoiler div.spl p.show_label_img{
+	padding-left: 24px;
+	display: inline;
+	visibility: visible;	
+	background: transparent url(/plugins/content/contentspoiler/images/down.gif) no-repeat left center;
+}
