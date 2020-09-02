@@ -1,0 +1,1 @@
+This is a patch from the original extension from http://theredone.ru/index.php/webprogramming/joomla/joomla-plg-contentspoiler
